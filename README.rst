@@ -1,4 +1,4 @@
-Provide caching object with expired values automatic removing.
+![Build Status](https://travis-ci.org/Fedorof/cacher.svg?branch=master)Provide caching object with expired values automatic removing.
 
 Current implementation uses threading module to schedule cleanup.
 
