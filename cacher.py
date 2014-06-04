@@ -4,8 +4,8 @@ Current implementation uses threading module to schedule cleanup.
 
 Usage:
 
-    There are `set`, `get` and `delete` methods (we pass None as a cleanup
-    period to disable automatic cleanup):
+    There are `set`, `get` and `delete` methods (in the example we
+    pass None as a cleanup period to disable automatic cleanup):
 
         >>> cache = Cacher(None)
         >>> cache.set('name', 2)
