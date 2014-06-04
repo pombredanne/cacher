@@ -4,6 +4,4 @@ python:
   - "2.7"
   - "3.2"
   - "3.3"
-script:
-  - nosetests
-  - python -m doctest -v cacher.py
+script: nosetests
